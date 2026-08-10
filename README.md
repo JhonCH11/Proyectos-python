@@ -126,7 +126,3 @@ El script procesará todos los archivos `*.csv`, `*.json` y `*.xml` del director
 - Manejo de codificaciones: Al leer archivos CSV o JSON con codificaciones distintas a UTF-8, especificar `encoding` o detectar automáticamente.
 
 - Rendimiento: Para directorios con muchos archivos, usar lectura por chunks o procesar por lotes para reducir uso de memoria.
-
-## Licencia
-
-Incluir aquí la licencia que prefieras (por ejemplo MIT) o dejar claro que es un ejemplo educativo.
