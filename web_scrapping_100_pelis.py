@@ -23,7 +23,7 @@ for row in rows:
                          "Film": str(col[1].contents[0]),
                          "Year": int(col[2].contents[0])}
             df1 = pd.DataFrame(data_dict, index=[0])
-            df = pd.concat([df,df1], ignore_index=True)
+            df = pd.concat([df,df1], ignore_index=False)
             count+=1
     else:
         break
